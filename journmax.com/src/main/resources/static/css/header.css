@@ -1,0 +1,218 @@
+@charset "ISO-8859-1";
+#left{
+    background-color: #BBE9E6;
+    height: 4.6em;
+}
+#centerPart{
+    background-color: #BBE9E6;
+    height: 4.6em;
+ 
+}
+#right{
+    background-color: #BBE9E6;
+    height: 4.6em;
+    
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #left {
+      width: 20%;
+    }
+    #centerPart {
+        width: 80%;
+      }
+      #right {
+        width: 100%;
+      }
+  }
+
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #BBE9E6;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #BBE9E6;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #BBE9E6;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-top: -.6em;
+    
+  }
+  #main button {
+    font-size: 30px;
+    color: #01858A;
+
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+
+  #menu {
+    height: 4.6em;
+  }
+  #logo {
+    height: 4.6em;
+  }
+  #contactNo {
+    height: 4.6em;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #menu {
+      display: none;
+    }
+    #logo {
+        width: 100%;
+      }
+      #contactNo {
+        display: none;
+
+      }
+      #centerPart #logo .center {
+        margin-left: 10%;
+        margin-top: 7%;
+      } 
+      .input-group {
+        width: 90%;
+        margin-left: 5%;
+      }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    #w1 {
+      display: none;
+    }
+    #m1 {
+      display: none;
+      }
+      #k1 {
+        display: none;
+
+      }
+  
+  }
+.center {
+    margin-left: 30%;
+    margin-top: 4%;
+  }
+  
+  .menuBar {
+    margin-left: 3.4em;
+    width: 85%;
+    text-align: center;
+  }
+  .menuBar .women {
+    
+    height: 4.6em;
+    width: 33.3%;
+   
+  }
+  .menuBar .men { 
+    height: 4.6em;
+    width: 33.3%; 
+  }
+  .menuBar .kids {
+    
+    height: 4.6em;
+    width: 33.3%; 
+  }
+  .menuBar .women a{
+    text-decoration: none;
+    color: #30488E;
+    position: absolute;
+    margin-top: 1.5em;
+    margin-left: -2em;
+  }
+  .menuBar .men a{
+    text-decoration: none;
+    color: #30488E;
+    position: absolute;
+    margin-top: 1.5em;
+    margin-left: -1em;
+  }
+  .menuBar .kids a{
+    text-decoration: none;
+    color: #30488E;
+    position: absolute;
+    margin-top: 1.5em;
+    margin-left: -1em;
+  }
+  .menuBar .women:hover {
+    background-color: #EBB3BE;
+  }
+  .menuBar .men:hover {
+    background-color: #EBB3BE;
+  }
+  .menuBar .kids:hover {
+    background-color: #EBB3BE;
+  }
+  #contactNo {
+    margin-top: 1.7em;
+    float: right;
+    color: #02858D;
+  }
+  .input-group input, #btn {
+    background-color: #BBE9E6;
+    height: 2em;
+    color: #619FD8;
+  
+  }
+  .input-group {
+    border: 1px solid white;
+    height: 2.2em;
+    margin-top: 1.3em;
+    width: 90%;
+    color: #619FD8;
+  }
