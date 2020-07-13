@@ -4,30 +4,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Journmaax-The Bags World</title>
-   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/fontawsome-all.min.css">
       <link rel="stylesheet" href="css/font-awsome.css">
       <link rel="stylesheet" href="css/header.css">
-       <link rel="stylesheet" href="css/fontawsome-all.min.css">
-      
-    
+      <link rel="stylesheet" href="css/fontawsome-all.min.css"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
 </head>
-
 <body>
-  <div class="container-fluid">
+   <div class="container-fluid" id="mainDiv">
     <div class="row">
 
       <!--left part of navbar begins-->
       <div class="col-sm-1" id="left">
         <div id="mySidebar" class="sidebar">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.646 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L6.207 7.5H11a.5.5 0 0 1 0 1H6.207l2.147 2.146z"/>
-          </svg> 
-          </a>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
           <a href="#" id="w1">Women</a>
           <a href="#" id="m1">Men</a>
           <a href="#" id="k1">Kids</a>
@@ -37,9 +30,7 @@
           <a href="#">Contact</a>
         </div>
         <div id="main">
-          <button class="openbtn" onclick="openNav()"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
-</svg></button>
+          <button class="openbtn" onclick="openNav()"> <i class="fa fa-bars" aria-hidden="true"></i></button>
         </div>
       </div>
       <!--left part of navbar ends-->
@@ -55,24 +46,23 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-5" id="logo"><img src="/img/logo.png" class="center" var="logo"></div>
+          <div class="col-sm-5" id="logo"><img src="img/logo.png" class="center" alt="logo"></div>
           <div class="col-sm-3" id="contactNo">
             <h6>call +919847074173</h6>
           </div>
         </div>
       </div>
       <div class="col-sm-3" id="right">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search">
-          <div class="input-group-append">
-            <button class="btn" type="button" id="btn">
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-              <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-              </svg>
-            </button>
-          </div>
+      <div class="mainSearchForm">
+      <form action="mainSearch" method="POST">
+        <div class="searchForm">
+          <input type="text" placeholder="Search">
+          <div class="searchIcon">
+          <a href="#" role="button" type="submit"><i class="fa fa-search"></i></a>
         </div>
+        </div>
+      </form>
+    </div>
       </div>
     </div>
   </div>

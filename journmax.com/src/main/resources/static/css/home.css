@@ -1,4 +1,5 @@
 @charset "ISO-8859-1";
+@charset "ISO-8859-1";
 body {
   font-family: "Lato", unset;
 }
@@ -226,3 +227,132 @@ body {
   margin-right: 1em;
 }
  
+/*product area begins*/
+
+ #priductMainDiv {
+    margin-top: 1em;
+}
+#priductMainDiv a {
+    text-decoration: none;
+    line-height: 1em;
+}
+#priductMainDiv a:hover {
+    color: #00858E;
+    font-size: 1.2em;
+}
+/*left sidebar begins*/
+.categoryHeading {
+    color: #E5657C;
+
+}
+#productCategories h6 {
+    color: #929292;
+}
+.categoryDiv1 {
+    height: 8em;
+    margin-top: 3em;
+    font-size: .8em;
+    line-height: 2em;
+    color: #E5657C;
+}
+.categoryDiv1 a {
+    color: #E5657C;
+}
+.categoryDiv2 {
+    height: 12em;
+    margin-top: 5em;
+    font-size: .8em;               
+    line-height: 2em;
+}
+.categoryDiv2 a {
+    color: #6F6F6F;
+}
+.categoryDiv3 {
+    height: 4em;
+    margin-top: 2em;
+    font-size: .8em;
+    line-height: 2em;
+}
+.categoryDiv3 a {
+    color: #E5657C;
+}
+.categoryDiv4 {
+    height: 18em;
+    margin-top: 5em;
+    font-size: .8em;
+    line-height: 2em;
+}
+.categoryDiv4 a {
+    color: #6F6F6F;
+}
+.categoryDiv5 {
+    height: 30em;
+    margin-top: 6em;
+    font-size: .8em;
+    line-height: 2em;
+
+}
+/*product details begin*/
+#productDetails {
+    font-size: .8em;
+    
+}
+.firstRowProduct {
+    width: 100%;
+    height: 32em;    
+}
+.secondRowProduct {
+    width: 100%;
+    height: 32em;
+}
+.thirdRowProduct {
+    width: 100%;
+    height: 32em;
+}
+.fourthRowProduct {
+    width: 100%;
+    height: 32em;
+}
+/*individual product details begin*/
+.firstRowProduct {
+    width: 100%;
+    height: 32em;   
+}
+.product {  
+    padding: .5em;  
+}
+#product1 {
+        
+}
+#product2 {
+    
+}
+#product3 {
+    
+}
+.productPicture {
+    width: 100%;
+    height: 26.5em;
+    background-color: #EBEBEB;
+}
+.productPicture img {
+    margin-left: 2em;
+}
+
+.productTag {
+    width: 100%;
+    height: 20%;
+    background-color: #FFFFFF;
+}
+#productDetails .productTag #productHeading {
+    color: #E5657C;
+    font-size: 1.1em;
+
+}
+#productDetails #productName {  
+    font-size: 1.1em; 
+}
+#productDetails #productPrice {
+    color: #00858E;
+    font-size: 1.1em;
+}

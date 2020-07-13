@@ -14,6 +14,13 @@ public class MainController
 		mv.setViewName("home");	
 		return mv;	
 	}
+	@RequestMapping("/header")
+	public ModelAndView header()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("header");	
+		return mv;	
+	}
 	@RequestMapping("/women")
 	public ModelAndView women()
 	{
